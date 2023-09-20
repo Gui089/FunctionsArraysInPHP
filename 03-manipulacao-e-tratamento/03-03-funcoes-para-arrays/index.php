@@ -147,3 +147,19 @@ echo str_replace(
   $testesDocs
 );
 
+$newIndex = [
+   "flavia",
+   "Guilherme",
+   "Vida dos sonhos",
+   "Amo flavia"
+];
+
+array_shift($newIndex);
+array_pop($newIndex);
+
+array_unshift($newIndex, "Ana flavia");
+
+var_dump(
+    $newIndex
+);
+
